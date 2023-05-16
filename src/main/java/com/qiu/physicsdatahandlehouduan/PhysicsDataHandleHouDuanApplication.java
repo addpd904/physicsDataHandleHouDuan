@@ -11,8 +11,10 @@ public class PhysicsDataHandleHouDuanApplication extends SpringBootServletInitia
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         // 注意这里要指向原先用main方法执行的启动类
         return builder.sources(PhysicsDataHandleHouDuanApplication.class);
+
     }
     public static void main(String[] args) {
+
         SpringApplication.run(PhysicsDataHandleHouDuanApplication.class, args);
     }
 
